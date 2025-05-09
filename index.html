@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorize Activity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Drag the cards to the correct category</h1>
+  <div class="categories">
+    <div class="category" id="cat1">
+      <img src="img/cat1.jpg" alt="Category Animal">
+    </div>
+    <div class="category" id="cat2">
+      <img src="img/cat2.jpg" alt="Category Fruit">
+    </div>
+  </div>
+  <div class="cards" id="card-container">
+    <div class="card" draggable="true" data-category="cat1">
+      <img src="img/card1.jpg" alt="Cat">
+    </div>
+    <div class="card" draggable="true" data-category="cat1">
+      <img src="img/card2.jpg" alt="Dog">
+    </div>
+    <div class="card" draggable="true" data-category="cat2">
+      <img src="img/card3.jpg" alt="Apple">
+    </div>
+  </div>
+
+  <button id="submit-btn">Submit</button>
+  <button id="reset-btn">Reset</button>
+  <div id="feedback"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

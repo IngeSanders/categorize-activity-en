@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.category {
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 40%;
+  min-height: 250px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  width: 150px;
+  border: 1px solid #999;
+  padding: 5px;
+  background: #f9f9f9;
+  cursor: grab;
+}
+.card img, .category img {
+  max-width: 100%;
+  height: auto;
+}
+#feedback {
+  margin-top: 20px;
+  font-weight: bold;
+}
